@@ -46,7 +46,9 @@ const Contact = () => {
           style={{ width: "300px", height: "300px", opacity: 0.1 }} // Adjust size and opacity as needed
         />
       </div>
-      <h2 className="text-3xl font-bold text-center z-10">Get in Touch</h2>
+      <h2 className="text-3xl font-bold text-center z-10 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+        Get in Touch
+      </h2>
       <p className="mt-4 max-w-xl mx-auto text-center z-10">
         I am always looking for new opportunities. Have an exciting project you
         need help with or just want to say hi? I'll try my best to get back to
@@ -68,6 +70,7 @@ const Contact = () => {
           className="border border-gray-300 bg-transparent text-gray-800 placeholder-gray-500 p-2 w-full mb-4 rounded focus:outline-none focus:ring focus:ring-blue-500" // Adjusted styles for transparency
         />
         <textarea
+          id="message"
           name="message"
           placeholder="Your Message"
           required

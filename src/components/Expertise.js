@@ -3,8 +3,11 @@ import { FaCode, FaDesktop, FaDatabase } from "react-icons/fa";
 
 const Expertise = () => {
   return (
-    <section id="expertise" className="py-10 bg-gray-100">
-      <h2 className="text-4xl font-bold text-center mb-8">My Expertise</h2>
+    <section id="expertise" className="py-10 pb-20 bg-gray-100">
+      <h2 className="text-4xl font-bold text-center mb-9 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient-move">
+        What I Bring to the Table
+      </h2>
+
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105">
           <FaCode className="text-blue-500 text-5xl mb-4" />

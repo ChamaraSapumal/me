@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+/* Hide cursor on mobile screens */
+@media (max-width: 768px) {
+  body {
+    cursor: none;
+  }
+}

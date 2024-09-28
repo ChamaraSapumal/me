@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 bg-opacity-80 text-white p-4 fixed top-5 left-1/2 transform -translate-x-1/2 rounded-full shadow-lg w-auto z-10 transition duration-300 hover:bg-gray-800 hover:bg-opacity-100">
+    <nav className="bg-gray-800 bg-opacity-80 text-white p-4 fixed top-5 left-1/2 transform -translate-x-1/2 rounded-full shadow-lg w-auto z-10 transition duration-300 hover:bg-gray-800 hover:bg-opacity-100 md:block hidden">
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand Name */}
         <h1 className="text-xl mr-3 font-bold cursor-pointer transition duration-300 hover:text-blue-400 whitespace-nowrap animate-bounce">

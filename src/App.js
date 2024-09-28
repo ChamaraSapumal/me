@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import LoadingScreen from "./components/LoadingScreen"; // Import LoadingScreen
 import AnimatedCursor from "react-animated-cursor";
+import ScrollToTop from "./components/ScrollToTop"; // Import ScrollToTop
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,29 +25,18 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Handle mouse movement to show/hide navbar
+  // Handle mouse movement to show navbar
   useEffect(() => {
     const handleMouseMove = () => {
       setShowNavbar(true);
     };
 
-    let timeoutId;
-    const handleHideNavbar = () => {
-      if (!inHeroSection) {
-        // Only hide navbar when NOT in the Hero section
-        timeoutId = setTimeout(() => setShowNavbar(false), 5000); // Hide navbar after 3 seconds of no mouse movement
-      }
-    };
-
     window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("mousemove", handleHideNavbar); // Trigger hiding after mouse stops moving
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("mousemove", handleHideNavbar);
-      clearTimeout(timeoutId);
     };
-  }, [inHeroSection]);
+  }, []);
 
   // Detect when leaving Hero section
   const handleScroll = () => {
@@ -75,10 +65,8 @@ function App() {
         <LoadingScreen fadeOut={fadeOut} /> // Pass fadeOut state
       ) : (
         <>
-          {/* Navbar visibility controlled by mouse movement, always visible in Hero */}
-          <div
-            className={`navbar-container ${showNavbar ? "visible" : "hidden"}`}
-          >
+          {/* Navbar will always be visible */}
+          <div className={`navbar-container visible`}>
             <Navbar />
           </div>
           <div id="hero-section">
@@ -91,6 +79,9 @@ function App() {
           <Footer />
         </>
       )}
+
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
 
       {/* Animated Cursor */}
       <AnimatedCursor
