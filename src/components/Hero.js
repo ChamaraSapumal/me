@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollDown from "./ScrollDown"; // Ensure the path is correct
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"; // Importing icons
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import scrollDownAnimation from "../assets/scrollDownAnimation.json"; // Ensure the path is correct
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
         {/* Social Media Links */}
         <div className="flex justify-center mt-11 space-x-6">
           <a
-            href="https://github.com/ChamaraSapumal"
+            href="https://github.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition duration-300"
@@ -34,7 +35,7 @@ const Hero = () => {
             <FaGithub size={30} />
           </a>
           <a
-            href="www.linkedin.com/in/sapumal-aryarathne-127599312"
+            href="https://www.linkedin.com/in/yourusername"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition duration-300"
@@ -42,19 +43,28 @@ const Hero = () => {
             <FaLinkedin size={30} />
           </a>
           <a
-            href="https://twitter.com/SapumalCham"
+            href="https://twitter.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition duration-300"
           >
             <FaTwitter size={30} />
           </a>
+          <a
+            href="https://www.instagram.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition duration-300"
+          >
+            <FaInstagram size={30} />
+          </a>
         </div>
       </div>
 
       {/* Scroll Down Icon Positioned at the Bottom */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-        <ScrollDown />
+        <ScrollDown animationData={scrollDownAnimation} targetId="about" />{" "}
+        {/* Pass animation data and target ID */}
       </div>
     </header>
   );

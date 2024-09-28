@@ -1,3 +1,4 @@
+// src/components/ScrollDown.js
 import React from "react";
 import Lottie from "lottie-react"; // Correct Lottie import
 import PropTypes from "prop-types"; // Import PropTypes for type checking
