@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollDown from "./ScrollDown"; // Ensure the path is correct
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import scrollDownAnimation from "../assets/scrollDownAnimation.json"; // Ensure the path is correct
 
 const Hero = () => {
@@ -11,7 +11,9 @@ const Hero = () => {
 
       {/* Main Content */}
       <div className="relative z-10 text-center">
-        <h1 className="text-7xl font-bold animate-pulse">Sapumal Cham</h1>
+        <h1 className="text-7xl md:text-9xl font-bold animate-pulse">
+          Sapumal Cham&reg;
+        </h1>
         <p className="mt-4 text-xl mb-6">
           Innovative Software Engineer & Tech Enthusiast
         </p>
@@ -27,7 +29,7 @@ const Hero = () => {
         {/* Social Media Links */}
         <div className="flex justify-center mt-11 space-x-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ChamaraSapumal"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition duration-300"
@@ -35,7 +37,7 @@ const Hero = () => {
             <FaGithub size={30} />
           </a>
           <a
-            href="https://www.linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/sapumal-aryarathne-127599312"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition duration-300"
@@ -43,20 +45,12 @@ const Hero = () => {
             <FaLinkedin size={30} />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://twitter.com/SapumalCham"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition duration-300"
           >
             <FaTwitter size={30} />
-          </a>
-          <a
-            href="https://www.instagram.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-gray-300 transition duration-300"
-          >
-            <FaInstagram size={30} />
           </a>
         </div>
       </div>
