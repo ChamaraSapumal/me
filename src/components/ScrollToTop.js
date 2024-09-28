@@ -46,7 +46,7 @@ const ScrollToTop = () => {
           <Lottie
             animationData={upArrowAnimation}
             loop={true}
-            style={{ width: "80px", height: "80px" }} // Adjust size as needed
+            style={{ width: "85px", height: "85px" }} // Adjust size as needed
           />
         </button>
       )}
