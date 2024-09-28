@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.77770f36.css",
+    "main.css": "/me/static/css/main.96290805.css",
     "main.js": "/me/static/js/main.1ece8e9d.js",
     "static/js/453.41811d64.chunk.js": "/me/static/js/453.41811d64.chunk.js",
     "static/media/hospitalOne.png": "/me/static/media/hospitalOne.e82d035efb0b62a4e23b.png",
@@ -11,12 +11,12 @@
     "static/media/weatherApp.png": "/me/static/media/weatherApp.3c045c71406f925b8120.png",
     "static/media/WaveSVG.svg": "/me/static/media/WaveSVG.98590a8a26334b5c50ba1e9c312950e0.svg",
     "index.html": "/me/index.html",
-    "main.77770f36.css.map": "/me/static/css/main.77770f36.css.map",
+    "main.96290805.css.map": "/me/static/css/main.96290805.css.map",
     "main.1ece8e9d.js.map": "/me/static/js/main.1ece8e9d.js.map",
     "453.41811d64.chunk.js.map": "/me/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77770f36.css",
+    "static/css/main.96290805.css",
     "static/js/main.1ece8e9d.js"
   ]
 }
