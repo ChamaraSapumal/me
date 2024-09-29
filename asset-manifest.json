@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.a0da86a0.css",
-    "main.js": "/me/static/js/main.3683f3fc.js",
+    "main.css": "/me/static/css/main.7bd24a85.css",
+    "main.js": "/me/static/js/main.2b777dec.js",
     "static/js/453.41811d64.chunk.js": "/me/static/js/453.41811d64.chunk.js",
     "static/media/hospitalOne.png": "/me/static/media/hospitalOne.e82d035efb0b62a4e23b.png",
     "static/media/burgerShop.png": "/me/static/media/burgerShop.a0e213908f57ca1e45e1.png",
@@ -11,12 +11,12 @@
     "static/media/weatherApp.png": "/me/static/media/weatherApp.3c045c71406f925b8120.png",
     "static/media/WaveSVG.svg": "/me/static/media/WaveSVG.98590a8a26334b5c50ba1e9c312950e0.svg",
     "index.html": "/me/index.html",
-    "main.a0da86a0.css.map": "/me/static/css/main.a0da86a0.css.map",
-    "main.3683f3fc.js.map": "/me/static/js/main.3683f3fc.js.map",
+    "main.7bd24a85.css.map": "/me/static/css/main.7bd24a85.css.map",
+    "main.2b777dec.js.map": "/me/static/js/main.2b777dec.js.map",
     "453.41811d64.chunk.js.map": "/me/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0da86a0.css",
-    "static/js/main.3683f3fc.js"
+    "static/css/main.7bd24a85.css",
+    "static/js/main.2b777dec.js"
   ]
 }
