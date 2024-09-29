@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import LoadingScreen from "./components/LoadingScreen";
 import AnimatedCursor from "react-animated-cursor";
 import ScrollToTop from "./components/ScrollToTop";
+import RateMyWork from "./components/RateMyWork";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +39,7 @@ function App() {
           <About />
           <Expertise />
           <Projects />
+          <RateMyWork />
           <Contact />
           <Footer />
         </>
