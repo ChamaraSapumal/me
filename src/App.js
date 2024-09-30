@@ -10,7 +10,8 @@ import LoadingScreen from "./components/LoadingScreen";
 import AnimatedCursor from "react-animated-cursor";
 import ScrollToTop from "./components/ScrollToTop";
 import RateMyWork from "./components/RateMyWork";
-import Testimonials from "./components/Testimonials";
+import Technologies from "./components/Technologies";
+// import Testimonials from "./components/Testimonials"; // Uncomment if needed
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -39,8 +40,9 @@ function App() {
           </div>
           <About />
           <Expertise />
+          <Technologies />
           <Projects />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <RateMyWork />
           <Contact />
           <Footer />
